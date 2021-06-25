@@ -9,7 +9,7 @@ OBJDIR = obj
 #Other variables
 TARGET = ChessGame
 MAIN = main
-OTHERS = Board Square Piece
+OTHERS = Board Square Piece Pawn
 
 #Useful definitions
 OBJS = $(addprefix $(OBJDIR)/, $(addsuffix .o, $(MAIN) $(OTHERS)))

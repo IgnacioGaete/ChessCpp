@@ -8,7 +8,7 @@ using namespace std;
 class Piece{
 	private:
 		string name;
-		unsigned color;
+		int color;
 	public:
 		static const int NONE = -1;
 		static const int WHITE = 0;

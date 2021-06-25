@@ -46,14 +46,13 @@ Board::Board():scoreW(0),scoreB(0){
 Board::~Board(){}
 
 void Board::show(){
-	cout << "Board showing..." << endl;
 	for(int y=0;y<8;y++){
 		for(int x=0;x<8;x++){
 			cout << this->grid[x][7-y].getPieceName() << '\t';
 		}
 		cout << endl;
 	}
-	cout << endl << "Scores:" << endl;
+	cout << endl << "Score:" << endl;
 	cout << "Whites = " << this->scoreW << endl;
 	cout << "Blacks = " << this->scoreB << endl;
 }
